@@ -1,0 +1,14 @@
+name: RDP
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Preparing RDP Environment
+        run: |
+          # Aquí va la configuración estándar para habilitar RDP o descargar las herramientas necesarias.
+          # Debido a que el archivo original de la imagen está vacío o recién creado ("main.yml" en edición),
+          # se proporciona la estructura inicial completa basada en el fragmento visible en su teclado móvil:
+          # name: RDP on: workflow_dispatch: jobs...
+          
